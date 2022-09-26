@@ -9,7 +9,8 @@ class MyProgram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
+	  int b = sc.nextInt();
         System.out.println(a < 21 ? "Да" : "Нет");
-        System.out.println("GitHub");
+        System.out.println(b < 21 ? "No" : "Yes");
     }
 }
