@@ -10,5 +10,6 @@ class MyProgram {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         System.out.println(a < 21 ? "Да" : "Нет");
+        System.out.println("GitHub");
     }
 }
